@@ -1,0 +1,5 @@
+Item,Description
+Total Rows,10405
+Total Columns,16
+Column Names,"Indicator, Group, State, Subgroup, Phase, Time Period, Time Period Label, Time Period Start, Time Period End, Value, Low CI, High CI, Confidence Interval, Quartile Range, Suppression Flag"
+Notes,"Hid columns Phase, Low CI, High, CI, Confidence Interval, Quartile Range, Suppression Flag. Renamed Value to MH_Care_Value, Filtered out rows with blank mh_care_percent values. Only rows with reported data are included for analysis. Created separate sheets for each analysis group: By_Age, By_Sex, By_Sexual_Orientation, By_State, By_Gender_Identity, By_Disability. Each sheet isolates a single grouping type to simplify pivot tables and visualizations. In the By_State sheet, State and Subgroup both contained the state names. Kept State for analysis, hid Subgroup and Group to reduce redundancy. Kept Time Period Label for analysis because it shows the range of weeks in 2020; hid Time Period Start and Time Period End to reduce redundancy."
